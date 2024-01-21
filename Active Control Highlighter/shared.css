@@ -1,0 +1,94 @@
+/* Home games carousel */
+/* Base outline while hovered */
+.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus
+{
+    outline: 2px solid var(--finessesh0t-base-highlight-color);
+    animation: 
+        finessesh0t_appportrait_growOutline_3wk3d .4s ease,
+        finessesh0t_appportrait_fadeOutline_1FLuV 1.4s ease,
+        finessesh0t_appportrait_blinker_2tSbN 1.2s ease-in-out .4s infinite;
+}
+
+/* Blinked outline while hovered */
+@keyframes finessesh0t_appportrait_blinker_2tSbN {
+    50% {
+        outline: 2px solid var(--finessesh0t-blinked-highlight-color);
+    }
+}
+
+/* outline during the into hover transition */
+@keyframes finessesh0t_appportrait_fadeOutline_1FLuV {
+    0% {
+        outline-color: var(--finessesh0t-start-highlight-color);
+    }
+
+    100% {
+        outline-color: var(--finessesh0t-base-highlight-color);
+    }
+}
+
+/* Everywhere else */
+.focusring_FocusRing_1IZrQ {
+    outline: 2px solid var(--finessesh0t-base-highlight-color);
+    animation: 
+        finessesh0t_focusring_flash_1YTKZ .5s ease,
+        finessesh0t_focusring_growOutline_Z3LxS .4s ease,
+        finessesh0t_focusring_fadeOutline_2hZu3 .4s ease,
+        finessesh0t_focusring_blinker_3wFMM 1.2s ease-in-out .4s infinite
+}
+
+@keyframes finessesh0t_focusring_fadeOutline_2hZu3 {
+    0% {
+        outline-color: var(--finessesh0t-start-highlight-color);
+    }
+
+    100% {
+        outline-color: var(--finessesh0t-base-highlight-color);
+    }
+}
+
+@keyframes finessesh0t_focusring_blinker_3wFMM {
+    50% {
+        outline: 2px solid var(--finessesh0t-blinked-highlight-color);
+    }
+}
+
+.gpfocus .basicpartnereventspage_BasicPartnerEvent_2yuwU {
+    outline: 2px solid var(--finessesh0t-base-highlight-color);
+}
+
+.gamepadslider_SliderControlAndNotches_1Cccx:not(.gamepadslider_Disabled_1lI1N).gpfocus .gamepadslider_SliderHandle_2yVKj {
+    border: solid 3px var(--finessesh0t-base-highlight-color);
+    animation: 
+        finessesh0t_focusborder_blinker_2yVKj 1.2s ease-in-out .4s infinite;
+}
+
+@keyframes finessesh0t_focusborder_blinker_2yVKj {
+    50% {
+        border: solid 3px var(--finessesh0t-blinked-highlight-color);
+    }
+}
+
+.gamepaddialog_Toggle_24G4g.gpfocus:after {
+    background-color: var(--finessesh0t-base-highlight-color);
+    animation: 
+        finessesh0t_focusbackgroundcolor_blinker_24G4g 1.2s ease-in-out .4s infinite;
+}
+
+@keyframes finessesh0t_focusbackgroundcolor_blinker_24G4g {
+    50% {
+        background-color: var(--finessesh0t-blinked-highlight-color);
+    }
+}
+
+button.gamepaddialog_Button_1kn70.DialogButton.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:active, button.gamepaddialog_Button_1kn70.DialogButton:enabled.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active, button.gamepaddialog_Button_1kn70.DialogButton:active.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:active:active, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
+    outline: 2px solid var(--finessesh0t-base-highlight-color);
+    animation: 
+        finessesh0t_appportrait_blinker_2tSbN 1.2s ease-in-out .4s infinite;
+}
+
+.gamepadtabbedpage_Tab_3eEbS.gpfocus {
+    outline: 2px solid var(--finessesh0t-base-highlight-color);
+    animation: 
+        finessesh0t_appportrait_blinker_2tSbN 1.2s ease-in-out .4s infinite;
+}

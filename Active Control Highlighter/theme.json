@@ -1,0 +1,59 @@
+{
+  "name": "Active Control Highlighter",
+  "author": "finessesh0t",
+  "version": "v1.0",
+  "manifest_version": 5,
+  "patches": {
+    "Highlight Colors": {
+      "type": "none",
+      "values": {
+        "_": {
+          "shared.css": [
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        }
+      },
+      "components": [
+        {
+          "name": "Base Color",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#2665EB9A",
+          "css_variable": "finessesh0t-base-highlight-color",
+          "tabs": [
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        },
+        {
+          "name": "Pulse Highlight Color",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#2665EB44",
+          "css_variable": "finessesh0t-blinked-highlight-color",
+          "tabs": [
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        },
+        {
+          "name": "Initial Highlight Color",
+          "type": "color-picker",
+          "on": "_",
+          "default": "#2665EB33",
+          "css_variable": "finessesh0t-start-highlight-color",
+          "tabs": [
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        }
+      ]
+    }
+  },
+  "id": "6a92019b-ee46-4e3d-b085-d26a045a1660"
+}
