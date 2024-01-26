@@ -1,7 +1,7 @@
 {
-  "name": "Active Control Highlighter (dev)",
+  "name": "Active Control Highlighter",
   "author": "finessesh0t",
-  "version": "v1.1",
+  "version": "v1.2",
   "manifest_version": 5,
   "patches": {
     "Highlight Colors": {
