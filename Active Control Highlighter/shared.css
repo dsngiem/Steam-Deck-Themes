@@ -2,7 +2,7 @@
 /* Base outline while hovered */
 .BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus
 {
-    outline: 2px solid var(--finessesh0t-base-highlight-color);
+    outline: 3px solid var(--finessesh0t-base-highlight-color);
     animation: 
         finessesh0t_appportrait_growOutline_3wk3d .4s ease,
         finessesh0t_appportrait_fadeOutline_1FLuV 1.4s ease,
@@ -12,7 +12,7 @@
 /* Blinked outline while hovered */
 @keyframes finessesh0t_appportrait_blinker_2tSbN {
     50% {
-        outline: 2px solid var(--finessesh0t-blinked-highlight-color);
+        outline: 3px solid var(--finessesh0t-blinked-highlight-color);
     }
 }
 
@@ -29,7 +29,7 @@
 
 /* Everywhere else */
 .focusring_FocusRing_1IZrQ {
-    outline: 2px solid var(--finessesh0t-base-highlight-color);
+    outline: 3px solid var(--finessesh0t-base-highlight-color);
     animation: 
         finessesh0t_focusring_flash_1YTKZ .5s ease,
         finessesh0t_focusring_growOutline_Z3LxS .4s ease,
@@ -49,12 +49,12 @@
 
 @keyframes finessesh0t_focusring_blinker_3wFMM {
     50% {
-        outline: 2px solid var(--finessesh0t-blinked-highlight-color);
+        outline: 3px solid var(--finessesh0t-blinked-highlight-color);
     }
 }
 
 .gpfocus .basicpartnereventspage_BasicPartnerEvent_2yuwU {
-    outline: 2px solid var(--finessesh0t-base-highlight-color);
+    outline: 3px solid var(--finessesh0t-base-highlight-color);
 }
 
 .gamepadslider_SliderControlAndNotches_1Cccx:not(.gamepadslider_Disabled_1lI1N).gpfocus .gamepadslider_SliderHandle_2yVKj {
@@ -82,13 +82,25 @@
 }
 
 button.gamepaddialog_Button_1kn70.DialogButton.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:active, button.gamepaddialog_Button_1kn70.DialogButton:enabled.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active, button.gamepaddialog_Button_1kn70.DialogButton:active.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:active:active, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
-    outline: 2px solid var(--finessesh0t-base-highlight-color);
+    outline: 3px solid var(--finessesh0t-base-highlight-color);
     animation: 
         finessesh0t_appportrait_blinker_2tSbN 1.2s ease-in-out .4s infinite;
 }
 
 .gamepadtabbedpage_Tab_3eEbS.gpfocus {
-    outline: 2px solid var(--finessesh0t-base-highlight-color);
+    outline: 3px solid var(--finessesh0t-base-highlight-color);
+    animation: 
+        finessesh0t_appportrait_blinker_2tSbN 1.2s ease-in-out .4s infinite;
+}
+
+.BasicUI .appdetailsplaysection_MenuButton_3qDWQ.Focusable:focus {
+    outline: 3px solid var(--finessesh0t-base-highlight-color);
+    animation: 
+        finessesh0t_appportrait_blinker_2tSbN 1.2s ease-in-out .4s infinite;
+}
+
+.BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX.Focusable:focus {
+    outline: 3px solid var(--finessesh0t-base-highlight-color);
     animation: 
         finessesh0t_appportrait_blinker_2tSbN 1.2s ease-in-out .4s infinite;
 }
